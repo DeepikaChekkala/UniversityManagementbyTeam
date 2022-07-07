@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+}
+
+
+html{
+    font-size:100%;
+}
+.boxed {
+    border: 174px solid rgb(150, 134, 134) ;
+  }
+.button{
+    font-size: 10px;
+}

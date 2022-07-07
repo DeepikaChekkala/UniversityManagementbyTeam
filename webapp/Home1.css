@@ -1,0 +1,171 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+ }
+ body{
+    background-image: url(w6.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ nav {
+   float: left;
+   width: 25%;
+   height: 90px; /* only for demonstration, should be removed */
+   background-color: #0D5BE1;
+   padding: 20px;
+ }
+ 
+ /* Style the list inside the menu */
+ nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ article {
+   float: left;
+   padding: 20px;
+   width: 75%;
+   background-color: #0D5BE1;
+   height: 90px; /* only for demonstration, should be removed */
+ }
+ 
+ /* Clear floats after the columns */
+ section::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ .menu-bar
+ {
+background: rgb(0,10,50);
+height: 12%;
+text-align: center;
+border-bottom-color: #985;
+ }
+ .menu-bar ul
+ {
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    border-bottom: #985;
+ }
+ .menu-bar ul li
+ {
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    border-right: ridge;
+ }
+ .menu-bar ul li{
+   border-color: #fff;
+    border-width: 3px;
+ }
+ .menu-bar ul li a 
+ {
+text-decoration: none;
+color: #fff;
+ }
+  .menu-bar ul li a:hover
+ {
+background: #3eac26 ;
+margin: 3px;
+cursor: pointer;
+ }
+ 
+ table {
+   position: relative;
+   table-layout: auto;
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 1050px;
+ }
+ 
+ td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+ }
+ 
+ tr:nth-child(even) {
+   background-color: yellow;
+ }
+ .menu-bar .fa
+ {
+    margin-right: 8px;
+ }
+ .sun-menu-1
+ {
+    display: none;
+ }
+ .menu-bar ul li:hover .sun-menu-1
+ {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    background: blue;
+    margin-top: 15px;
+    margin-left: -15px;
+    z-index: 1;
+    
+ }
+ .menu-bar ul li:hover .sun-menu-1 ul
+ {
+    display: block;
+    margin: 10px;
+ }
+ .menu-bar ul li:hover .sun-menu-1 ul li
+ {
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+ }
+ .menu-bar ul li:hover .sun-menu-1 ul li:last-child
+ {
+   border-bottom: none;
+ }
+ .menu-bar ul li:hover .sun-menu-1 ul li a:hover
+ {
+    color: none;
+ }
+ .fa angle-right
+ {
+    float: right;
+ }
+ .information{
+   height: 360px;
+   width: 320px;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+ }
+ .information .info2{
+   height: 302px;
+   width: 320px;
+   background-color: blue;
+ }
+ .information .info2 p{
+    text-size-adjust: 5px;
+    border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+ }
+ .information .info2 p:last-child{
+   border-bottom: none;
+ }
+ 
+ .table{
+   position:relative; 
+   left:320px; 
+   top:-360px;
+ }
+ 
